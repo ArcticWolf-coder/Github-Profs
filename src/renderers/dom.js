@@ -5,7 +5,7 @@ import App from 'components/App';
 
 import '../styles/index.css';
 
-ReactDOM.hydrate(
-  <App initialData={window.__R_DATA.initialData} />,
+ReactDOM.render(
+  <App  title="The GitHub Cards App"/>,
   document.getElementById('root')
 );
