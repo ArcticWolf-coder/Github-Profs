@@ -6,6 +6,6 @@ import App from 'components/App';
 import '../styles/index.css';
 
 ReactDOM.render(
-  <App  title="The GitHub Cards App"/>,
+  <App  title="ProfileHub"/>,
   document.getElementById('root')
 );
